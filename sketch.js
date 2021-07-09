@@ -10,11 +10,7 @@ var backgroundImg;
 
 function preload() {
     // create getBackgroundImg( ) here
- /*   bg1 =loadImage("sunrise1.png");
-    bg2 =loadImage("sunrise2.png");
-    bg3 =loadImage("sunrise10.png");
-    bg4 =loadImage("sunrise11.png");
-    bg5 =loadImage("sunrise12.png"); */
+
     backgroundImg = loadImage("sunrise1.png");
    
 }
@@ -28,14 +24,7 @@ function setup(){
 
 function draw(){
     background(backgroundImg)
-    // add condition to check if any background image is there to add
-
-
-    Engine.update(engine);
-
-    // write code to display time in correct format here
-
-
+     Engine.update(engine);
 }
 
 async function getBackgroundImg(){
